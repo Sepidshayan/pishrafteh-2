@@ -135,7 +135,7 @@ if __name__ == "__main__":
     for product in admin.products:
         print(f"{product.name} - ${product.price} - Stock: {product.stock}")
 
-    user = User("spideh", "password123")
+    user = User("sepideh", "password123")
     user.login("password123")
     user.add_address("Hojrat Street", "Jahrom", "741819")
 
